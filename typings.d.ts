@@ -1,8 +1,8 @@
 type Category =
-  | "general"
-  | "business"
-  | "entertaiment"
-  | "health"
-  | "science"
-  | "sports"
-  | "technology";
+  | "General"
+  | "Business"
+  | "Entertaiment"
+  | "Health"
+  | "Science"
+  | "Sports"
+  | "Technology";
