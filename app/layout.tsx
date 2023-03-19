@@ -10,9 +10,12 @@ export default function RootLayout({
     <html>
       <head />
       
-      <body>
+      <body className="bg-gray-100 dark:bg-zinc-900 transition-all duration-700">
+        {/* AGREGAR ARRIBA: dark:bg-zinc-900 */}
         <Header/>
-        <div>{children}</div>
+        <div
+        className="max-w-6xl mx-auto"
+        >{children}</div>
         
     </body>
     </html>

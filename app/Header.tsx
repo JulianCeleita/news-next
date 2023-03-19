@@ -6,7 +6,7 @@ import SearchBox from "./SearchBox";
 function Header() {
   return (
     <header>
-      <div className="grid grid-cols-3 bg-slate-400 p-10 items-center">
+      <div className="grid grid-cols-3 p-10 items-center">
 
         <Bars4Icon className="h-8 w-8 cursor-pointer" />
 
