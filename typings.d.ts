@@ -1,4 +1,4 @@
-type Artycle = {
+type Article = {
   author: string | null;
   category: string;
   country: string;
@@ -20,14 +20,14 @@ type Pagination = {
 
 type NewsResponse = {
   pagination: Pagination;
-  data: Artycle[];
+  data: Article[];
 };
 
 type Category =
-  | "General"
-  | "Business"
-  | "Entertaiment"
-  | "Health"
-  | "Science"
-  | "Sports"
-  | "Technology";
+  | "general"
+  | "business"
+  | "entertaiment"
+  | "health"
+  | "science"
+  | "sports"
+  | "technology"

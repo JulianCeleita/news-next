@@ -3,7 +3,7 @@ type Article {
   category: String
   country: String
   description: String
-  image: JSON
+  image: String
   language: String
   published_at: DateTime
   source: String
@@ -31,5 +31,7 @@ type Query {
   sort: String
   keywords: String
   sources: String
-  ): Root @rest(endpoint: "http://api.mediastack.com/v1/news")
+  ): Root
+    @rest(endpoint: "http://api.mediastack.com/v1/news")
 }
+
