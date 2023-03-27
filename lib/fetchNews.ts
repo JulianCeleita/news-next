@@ -1,5 +1,5 @@
 import { gql } from "graphql-request";
-import sortNewsByImage from "./sortNewsImage";
+import sortNewsByImage from "./sortNewsByImage";
 
 const fetchNews = async (
   category?: Category | string,
