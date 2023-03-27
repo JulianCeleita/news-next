@@ -16,15 +16,15 @@ const fetchNews = async (
       access_key: $access_key
       categories: $categories
       countries: "us, gb"
-      keywords: $keywords
       sort: "published_desc"
+      keywords: $keywords
     ) {
       data {
         author
         category
-        country
-        description
         image
+        description
+        country
         language
         published_at
         source

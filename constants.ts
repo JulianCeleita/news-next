@@ -1,7 +1,7 @@
 export const categories: Category[] = [
   "general",
   "business",
-  "entertaiment",
+  "entertainment",
   "health",
   "science",
   "sports",

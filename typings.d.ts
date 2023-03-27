@@ -24,10 +24,10 @@ type NewsResponse = {
 };
 
 type Category =
-  | "general"
   | "business"
-  | "entertaiment"
+  | "entertainment"
+  | "general"
   | "health"
   | "science"
   | "sports"
-  | "technology"
+  | "technology";
