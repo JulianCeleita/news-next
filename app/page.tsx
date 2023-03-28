@@ -3,7 +3,7 @@ import { categories } from "../constants";
 import NewsList from "./NewsList";
 import response from "../response.json"
 
-async function Homepage() {
+//async function Homepage() {
   const news: NewsResponse | undefined = /* response || */ await fetchNews(categories.join(","));
   
   if (news) {
