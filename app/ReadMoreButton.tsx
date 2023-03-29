@@ -1,6 +1,5 @@
 'use client';
 import { useRouter } from "next/navigation";
-import { encode } from "punycode";
 
 type Props = {
     article: Article;
@@ -10,7 +9,9 @@ function ReadMoreButton({article}: Props) {
     const router = useRouter();
 
     const handleClick = () => {
-        const url = `/article?${encode(article)}`;
+      const queryString = Object.entries(article).map(([key, value])=> `${key}=${value}`).join("&");
+        queryString.replace(/#/g, "!");
+        const url = `/article?${queryString}`;
         console.log(url)
             router.push(url);
     }
