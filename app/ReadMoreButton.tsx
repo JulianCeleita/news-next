@@ -1,6 +1,6 @@
 'use client';
 import { useRouter } from "next/navigation";
-import { encode } from "querystring";
+import { encode } from "punycode";
 
 type Props = {
     article: Article;
@@ -18,7 +18,7 @@ function ReadMoreButton({article}: Props) {
     onClick={handleClick}
     className="bg-orange-400 h-10 rounded-b-lg dark:text-gray-900 hover:bg-orange-500"
   >
-    Read Article
+    Read More
   </button>
 }
 export default ReadMoreButton
