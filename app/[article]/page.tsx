@@ -47,3 +47,5 @@ function ArticlePage({ searchParams }: Props) {
   )
 }
 export default ArticlePage
+
+export const dynamic = 'force-dynamic'
