@@ -23,7 +23,7 @@ function SearchBox() {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="¿What do you want to see today?"
-        className="flex-1 w-full h-14 bg-transparent rounded-sm placeholder-gray-500 text-gray-500 outline-none dark:text-red-500"
+        className="flex-1 w-full h-14 bg-transparent rounded-sm placeholder-gray-500 text-gray-500 outline-none dark:text-orange-500"
       />
       <button
         type="submit"

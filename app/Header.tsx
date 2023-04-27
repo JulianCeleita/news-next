@@ -14,7 +14,7 @@ function Header() {
         <Link href="/" prefetch={false}>
           <h1 className="font-serif text-4xl text-center">
             THE{" "}
-            <span className="underline decoration-4 decoration-red-500">
+            <span className="underline decoration-4 decoration-orange-500">
             CELEITA
             </span>
             {" "}NEWS
